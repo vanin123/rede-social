@@ -1,6 +1,13 @@
+
 :root{
     --cor-principal: #7A577A;
     --cor-secundária: #287A70;
-    --cor-texto: #162E25;
+    --cor-texto: #ffffff;
     --cor-de-fundo: #7A6D31;
+    --font:"Nunito Sans", sans-serif;
+}
+body{
+    blackgroud-color: var(--cor-principal);
+    color: var(--cor-texto);
+    font-family: var(--font);
 }
